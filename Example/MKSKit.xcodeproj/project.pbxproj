@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		324E5BD1352B8F21C3270686 /* Pods_MKSKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158B6B79503BC5A73AA699C7 /* Pods_MKSKit_Example.framework */; };
+		4DE9B22A1E01214A006ECF3D /* MKSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9B2291E01214A006ECF3D /* MKSRootViewController.m */; };
 		57D4E9776037FB1EDE8E7271 /* Pods_MKSKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE02802E3397B94DAD12ECD0 /* Pods_MKSKit_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -36,10 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04256A1EB6C27404A5BD507B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		04256A1EB6C27404A5BD507B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		158B6B79503BC5A73AA699C7 /* Pods_MKSKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKSKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		440C39D1A58DF5CD71FEEF3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		440C39D1A58DF5CD71FEEF3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4BD3B735E79885D1292210CC /* Pods-MKSKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKSKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKSKit_Tests/Pods-MKSKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DE9B2281E01214A006ECF3D /* MKSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSRootViewController.h; sourceTree = "<group>"; };
+		4DE9B2291E01214A006ECF3D /* MKSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSRootViewController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MKSKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKSKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +64,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7889C508E9B4B2773628DE11 /* Pods-MKSKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKSKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKSKit_Tests/Pods-MKSKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		998E46E48194836F0CFA334A /* MKSKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MKSKit.podspec; path = ../MKSKit.podspec; sourceTree = "<group>"; };
+		998E46E48194836F0CFA334A /* MKSKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MKSKit.podspec; path = ../MKSKit.podspec; sourceTree = "<group>"; };
 		AE02802E3397B94DAD12ECD0 /* Pods_MKSKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKSKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E5837901BFB316933C1150 /* Pods-MKSKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKSKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKSKit_Example/Pods-MKSKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F5F33C6F83C4E6FDD0615A4C /* Pods-MKSKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKSKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKSKit_Example/Pods-MKSKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +146,8 @@
 			children = (
 				6003F59C195388D20070C39A /* MKSAppDelegate.h */,
 				6003F59D195388D20070C39A /* MKSAppDelegate.m */,
+				4DE9B2281E01214A006ECF3D /* MKSRootViewController.h */,
+				4DE9B2291E01214A006ECF3D /* MKSRootViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MKSViewController.h */,
 				6003F5A6195388D20070C39A /* MKSViewController.m */,
@@ -390,6 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE9B22A1E01214A006ECF3D /* MKSRootViewController.m in Sources */,
 				6003F59E195388D20070C39A /* MKSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MKSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -516,6 +522,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKSKit/MKSKit-Prefix.pch";
 				INFOPLIST_FILE = "MKSKit/MKSKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,6 +539,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKSKit/MKSKit-Prefix.pch";
 				INFOPLIST_FILE = "MKSKit/MKSKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

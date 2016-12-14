@@ -7,12 +7,22 @@
 //
 
 #import "MKSAppDelegate.h"
+#import <MKSKit/MKSKit.h>
+#import "MKSRootViewController.h"
 
 @implementation MKSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+//    UIWindow *win = [[UIWindow alloc] initWithFrame:SCREEN_BOUNDS];
+//    [self setWindow:win];
+//    [self.window makeKeyAndVisible];
+//    
+//    MKSRootViewController *rootController = [[MKSRootViewController alloc] init];
+//    [self.window setRootViewController:rootController];
+    
+    
     return YES;
 }
 

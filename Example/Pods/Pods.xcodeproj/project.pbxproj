@@ -19,6 +19,15 @@
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4DE9B1F91E0114E0006ECF3D /* MKSKitInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE9B1F71E0114E0006ECF3D /* MKSKitInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DE9B1FA1E0114E0006ECF3D /* MKSKitInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9B1F81E0114E0006ECF3D /* MKSKitInfo.m */; };
+		4DE9B2201E011AB2006ECF3D /* MKSDeviceCon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE9B21F1E011AB2006ECF3D /* MKSDeviceCon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE9B2221E011B13006ECF3D /* MKSContraction.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE9B2211E011B13006ECF3D /* MKSContraction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE9B2241E011B6B006ECF3D /* MKSSystemCon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE9B2231E011B6B006ECF3D /* MKSSystemCon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE9B2271E011BB4006ECF3D /* MKSContants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE9B2261E011BB4006ECF3D /* MKSContants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE9B22E1E01298D006ECF3D /* MKSBanPasteTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE9B22C1E01298D006ECF3D /* MKSBanPasteTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE9B22F1E01298D006ECF3D /* MKSBanPasteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9B22D1E01298D006ECF3D /* MKSBanPasteTextField.m */; };
+		4DE9B2311E01299E006ECF3D /* MKSCustomUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE9B2301E01299E006ECF3D /* MKSCustomUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE9B2341E012CDA006ECF3D /* MKSToggleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE9B2321E012CDA006ECF3D /* MKSToggleButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE9B2351E012CDA006ECF3D /* MKSToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9B2331E012CDA006ECF3D /* MKSToggleButton.m */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
 		640776F175B648FBC2E43C16ECF3F39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
@@ -82,6 +91,15 @@
 		47401B64335190EFC84C50FC46F48ED0 /* MKSKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKSKit-umbrella.h"; sourceTree = "<group>"; };
 		4DE9B1F71E0114E0006ECF3D /* MKSKitInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSKitInfo.h; sourceTree = "<group>"; };
 		4DE9B1F81E0114E0006ECF3D /* MKSKitInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSKitInfo.m; sourceTree = "<group>"; };
+		4DE9B21F1E011AB2006ECF3D /* MKSDeviceCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSDeviceCon.h; sourceTree = "<group>"; };
+		4DE9B2211E011B13006ECF3D /* MKSContraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSContraction.h; sourceTree = "<group>"; };
+		4DE9B2231E011B6B006ECF3D /* MKSSystemCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSSystemCon.h; sourceTree = "<group>"; };
+		4DE9B2261E011BB4006ECF3D /* MKSContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSContants.h; sourceTree = "<group>"; };
+		4DE9B22C1E01298D006ECF3D /* MKSBanPasteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSBanPasteTextField.h; sourceTree = "<group>"; };
+		4DE9B22D1E01298D006ECF3D /* MKSBanPasteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSBanPasteTextField.m; sourceTree = "<group>"; };
+		4DE9B2301E01299E006ECF3D /* MKSCustomUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSCustomUI.h; sourceTree = "<group>"; };
+		4DE9B2321E012CDA006ECF3D /* MKSToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSToggleButton.h; sourceTree = "<group>"; };
+		4DE9B2331E012CDA006ECF3D /* MKSToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSToggleButton.m; sourceTree = "<group>"; };
 		4FC4931A352D7687185B977DD7F7EA40 /* Pods-MKSKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKSKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
@@ -231,6 +249,29 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		4DE9B21E1E011A71006ECF3D /* MKSContants */ = {
+			isa = PBXGroup;
+			children = (
+				4DE9B2261E011BB4006ECF3D /* MKSContants.h */,
+				4DE9B21F1E011AB2006ECF3D /* MKSDeviceCon.h */,
+				4DE9B2231E011B6B006ECF3D /* MKSSystemCon.h */,
+				4DE9B2211E011B13006ECF3D /* MKSContraction.h */,
+			);
+			name = MKSContants;
+			sourceTree = "<group>";
+		};
+		4DE9B22B1E012942006ECF3D /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				4DE9B2301E01299E006ECF3D /* MKSCustomUI.h */,
+				4DE9B2321E012CDA006ECF3D /* MKSToggleButton.h */,
+				4DE9B2331E012CDA006ECF3D /* MKSToggleButton.m */,
+				4DE9B22C1E01298D006ECF3D /* MKSBanPasteTextField.h */,
+				4DE9B22D1E01298D006ECF3D /* MKSBanPasteTextField.m */,
+			);
+			name = CustomUI;
+			sourceTree = "<group>";
+		};
 		5CAFBFAFAE8CBC6488562245672DB8D0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +354,8 @@
 		CE7DF481BD60A5BC1003604E0F4459C6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4DE9B22B1E012942006ECF3D /* CustomUI */,
+				4DE9B21E1E011A71006ECF3D /* MKSContants */,
 				7802B917B81053670EE30AD01C047DF9 /* MKSKit.h */,
 				4DE9B1F71E0114E0006ECF3D /* MKSKitInfo.h */,
 				4DE9B1F81E0114E0006ECF3D /* MKSKitInfo.m */,
@@ -385,7 +428,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9F5B1ED9B6C21575802BA4006FFA0D4 /* MKSKit-umbrella.h in Headers */,
+				4DE9B2221E011B13006ECF3D /* MKSContraction.h in Headers */,
+				4DE9B2271E011BB4006ECF3D /* MKSContants.h in Headers */,
+				4DE9B2201E011AB2006ECF3D /* MKSDeviceCon.h in Headers */,
+				4DE9B2241E011B6B006ECF3D /* MKSSystemCon.h in Headers */,
+				4DE9B2311E01299E006ECF3D /* MKSCustomUI.h in Headers */,
 				4DE9B1F91E0114E0006ECF3D /* MKSKitInfo.h in Headers */,
+				4DE9B2341E012CDA006ECF3D /* MKSToggleButton.h in Headers */,
+				4DE9B22E1E01298D006ECF3D /* MKSBanPasteTextField.h in Headers */,
 				20305C8B894A0220FCC555FE2E44006B /* MKSKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,8 +595,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAECCAF811B163699EBDD21BB79D8A89 /* MKSKit-dummy.m in Sources */,
+				4DE9B22F1E01298D006ECF3D /* MKSBanPasteTextField.m in Sources */,
 				4DE9B1FA1E0114E0006ECF3D /* MKSKitInfo.m in Sources */,
 				7B9790EB26266F79822507E12D37AB0C /* ReplaceMe.m in Sources */,
+				4DE9B2351E012CDA006ECF3D /* MKSToggleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

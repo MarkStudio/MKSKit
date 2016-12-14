@@ -10,5 +10,7 @@
 #define MKSKit_h
 
 #import "MKSKitInfo.h"
+#import "MKSContants.h"
+#import "MKSCustomUI.h"
 
 #endif /* MKSKit_h */
