@@ -7,7 +7,7 @@
 //
 
 #import "MKSViewController.h"
-
+#import "MKSRootViewController.h"
 #import <MKSKit/MKSKit.h>
 
 @interface MKSViewController ()
@@ -50,6 +50,8 @@
     NSLog(@"screen width : %@, height : %@", @(SCREEN_WIDTH), @(SCREEN_HEIGHT));
     NSLog(@"is iPhone 5 SE ? %@", @(iPhone5SE));
     NSLog(@"is iPhone 6 Plus ? %@", @(iPhone6Plus_6sPlus));
+    
+    NSLog(@"Current Resolution : %ld", (long)([[UIDevice currentDevice] currentResolution]));
 }
 
 - (void)testSystemCon
@@ -74,7 +76,19 @@
                                                         offImage:[UIImage imageNamed:@"off"]
                                                 highlightedImage:[UIImage imageNamed:@"highlighted"]];
     [toggle setFrame:CGRectMake(kLeftPadding, 100, 30, 30)];
+    [toggle addTarget:self
+               action:@selector(transfer:)
+     forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:toggle];
+}//
+
+- (void)transfer:(id)sender
+{
+    MKSRootViewController *vc = [[MKSRootViewController alloc] init];
+    UINavigationController *vcNav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:vcNav
+                       animated:YES
+                     completion:nil];
 }//
 
 @end

@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MKSKit (0.1.0)
+  - MKSKit (0.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MKSKit: 4cac8a584ba7d3c1a4a1efe87ff6a6ee7113ca20
+  MKSKit: 3875ea952624cd03ee65997006912ad4006c9b7e
 
 PODFILE CHECKSUM: 7e1c8934ef979664ebc1183db33de61e8e698b50
 

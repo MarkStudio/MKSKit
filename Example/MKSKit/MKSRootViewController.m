@@ -7,6 +7,7 @@
 //
 
 #import "MKSRootViewController.h"
+#import <MKSKit/MKSKit.h>
 
 @interface MKSRootViewController ()
 
@@ -17,7 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self setTitle:@"ROOT"];
+    
+    [self mksCustomBackItem:@selector(backEvent:)];
 }
+
+- (void)backEvent:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}//
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

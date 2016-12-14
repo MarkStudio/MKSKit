@@ -1,4 +1,3 @@
-//
 //  BanPasteTextField.h
 //  Pods
 //

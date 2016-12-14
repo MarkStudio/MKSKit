@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MKSKit-MKSKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MKSKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,12 +42,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>4CF8652BCA4139D4E256F5B2B4D3B4B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D7B38A0AB8DA3EFEB1AE7A22B2C8606F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F1B65B8BB0FA1EC4FCC3687B7683CB89</key>
+		<key>FEE37B040187A61AFD610196EA73550D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

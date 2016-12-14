@@ -1,18 +1,18 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#endif
+//
+//  MKSUtilities.h
+//  Pods
+//
+//  Created by Mark Yang on 14/12/2016.
+//
+//
 
-#import "MKSBanPasteTextField.h"
-#import "MKSContants.h"
-#import "MKSContraction.h"
-#import "MKSDeviceCon.h"
-#import "MKSKit.h"
-#import "MKSKitInfo.h"
-#import "MKSSystemCon.h"
-#import "GTMBase64.h"
+#ifndef MKSUtilities_h
+#define MKSUtilities_h
+
 #import "GTMDefines.h"
+#import "GTMBase64.h"
 #import "MKSReachability.h"
-#import "MKSUtilities.h"
+
 #import "NSDate+MKSFormat.h"
 #import "NSFileManager+MKSExtend.h"
 #import "NSString+MKSDes.h"
@@ -22,11 +22,10 @@
 #import "UIDevice+MKSExtend.h"
 #import "UIImage+MKSExtend.h"
 #import "UIImage+MKSResize.h"
-#import "UITabBarController+MKSExtend.h"
 #import "UITabBarItem+MKSBadge.h"
 #import "UIViewController+MKSAlert.h"
 #import "UIViewController+MKSNavigationItem.h"
+#import "UITabBarController+MKSExtend.h"
+#import "UIWindow+MKSExtend.h"
 
-FOUNDATION_EXPORT double MKSKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char MKSKitVersionString[];
-
+#endif /* MKSUtilities_h */
