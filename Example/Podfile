@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MKSKit_Example' do
+  pod 'MKSKit', :path => '../'
+
+  target 'MKSKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
