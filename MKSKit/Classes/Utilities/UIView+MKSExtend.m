@@ -161,3 +161,58 @@
 }//
 
 @end
+
+#pragma mark - UIView Rounded Rect
+
+@implementation UIView (MKSRounded)
+
+- (instancetype)mksRoundRectWith:(CGFloat)radius
+{
+    self.clipsToBounds = YES;
+    self.layer.cornerRadius = radius;
+    
+    return self;
+}//
+
+- (instancetype)mksRoundRectWith:(CGFloat)radius corners:(UIRectCorner)corners
+{
+    UIBezierPath * maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds
+                                                    byRoundingCorners:corners
+                                                          cornerRadii:CGSizeMake(radius, radius)];
+    CAShapeLayer * maskLayer = [[CAShapeLayer alloc] init];
+    maskLayer.frame = self.bounds;
+    maskLayer.path = maskPath.CGPath;
+    self.layer.mask = maskLayer;
+    
+    return self;
+}//
+
+- (instancetype)mksRoundRectWithBorder:(CGFloat)borderWidth
+                           borderColor:(UIColor *)borderColor
+                                radius:(CGFloat)radius
+                               corners:(UIRectCorner)corners
+{
+    UIBezierPath * maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds
+                                                    byRoundingCorners:corners
+                                                          cornerRadii:CGSizeMake(radius, radius)];
+    CAShapeLayer * maskLayer = [CAShapeLayer layer];
+    maskLayer.frame = self.bounds;
+    maskLayer.path = maskPath.CGPath;
+//    maskLayer.masksToBounds = YES;
+    self.layer.mask = maskLayer;
+    
+    CAShapeLayer *borderLayer = [CAShapeLayer layer];
+    borderLayer.frame = self.bounds;
+    borderLayer.path = maskPath.CGPath;
+    borderLayer.lineWidth = borderWidth;
+    borderLayer.strokeColor = [borderColor CGColor];
+    borderLayer.fillColor = [[UIColor clearColor] CGColor];
+//    borderLayer.shouldRasterize = YES;
+//    borderLayer.rasterizationScale = 2.0;
+    if ([self.layer.sublayers.lastObject isKindOfClass:[CAShapeLayer class]]) {
+        [self.layer.sublayers.lastObject removeFromSuperlayer];
+    }
+    [self.layer addSublayer:borderLayer];
+}//
+
+@end

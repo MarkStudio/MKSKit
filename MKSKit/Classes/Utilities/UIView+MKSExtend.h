@@ -50,3 +50,16 @@
 - (void)removeAllSubViews;
 
 @end
+
+#pragma mark - UIView Rounded Rect
+
+@interface UIView (MKSRounded)
+
+- (instancetype)mksRoundRectWith:(CGFloat)radius;
+- (instancetype)mksRoundRectWith:(CGFloat)radius corners:(UIRectCorner)corners;
+- (instancetype)mksRoundRectWithBorder:(CGFloat)borderWidth
+                           borderColor:(UIColor *)borderColor
+                                radius:(CGFloat)radius
+                               corners:(UIRectCorner)corners;
+
+@end

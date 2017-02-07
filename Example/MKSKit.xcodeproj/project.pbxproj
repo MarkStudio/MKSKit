@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		324E5BD1352B8F21C3270686 /* Pods_MKSKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 158B6B79503BC5A73AA699C7 /* Pods_MKSKit_Example.framework */; };
+		4D1E7EF81E0A7C7800EDB69F /* MKSCodeSnippetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E7EF71E0A7C7800EDB69F /* MKSCodeSnippetTests.m */; };
+		4D6F579F1E0963BA00EF06CC /* MKSNSDictionary+MKSExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F579E1E0963BA00EF06CC /* MKSNSDictionary+MKSExtend.m */; };
+		4DD041441E028DCE008AE008 /* QRCodeScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD041431E028DCE008AE008 /* QRCodeScanViewController.m */; };
+		4DD041461E029492008AE008 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD041451E029492008AE008 /* AVFoundation.framework */; };
+		4DD4EE191E025EFC0006AE1E /* MKSAppInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4EE181E025EFC0006AE1E /* MKSAppInfoTests.m */; };
 		4DE9B22A1E01214A006ECF3D /* MKSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9B2291E01214A006ECF3D /* MKSRootViewController.m */; };
 		57D4E9776037FB1EDE8E7271 /* Pods_MKSKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE02802E3397B94DAD12ECD0 /* Pods_MKSKit_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,7 +27,6 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +45,12 @@
 		158B6B79503BC5A73AA699C7 /* Pods_MKSKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKSKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		440C39D1A58DF5CD71FEEF3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4BD3B735E79885D1292210CC /* Pods-MKSKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKSKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKSKit_Tests/Pods-MKSKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D1E7EF71E0A7C7800EDB69F /* MKSCodeSnippetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSCodeSnippetTests.m; sourceTree = "<group>"; };
+		4D6F579E1E0963BA00EF06CC /* MKSNSDictionary+MKSExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKSNSDictionary+MKSExtend.m"; sourceTree = "<group>"; };
+		4DD041421E028DCE008AE008 /* QRCodeScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeScanViewController.h; sourceTree = "<group>"; };
+		4DD041431E028DCE008AE008 /* QRCodeScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeScanViewController.m; sourceTree = "<group>"; };
+		4DD041451E029492008AE008 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4DD4EE181E025EFC0006AE1E /* MKSAppInfoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSAppInfoTests.m; sourceTree = "<group>"; };
 		4DE9B2281E01214A006ECF3D /* MKSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSRootViewController.h; sourceTree = "<group>"; };
 		4DE9B2291E01214A006ECF3D /* MKSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSRootViewController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MKSKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKSKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +70,6 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7889C508E9B4B2773628DE11 /* Pods-MKSKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKSKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKSKit_Tests/Pods-MKSKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -75,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD041461E029492008AE008 /* AVFoundation.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -131,6 +141,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DD041451E029492008AE008 /* AVFoundation.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -151,6 +162,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MKSViewController.h */,
 				6003F5A6195388D20070C39A /* MKSViewController.m */,
+				4DD041421E028DCE008AE008 /* QRCodeScanViewController.h */,
+				4DD041431E028DCE008AE008 /* QRCodeScanViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -172,7 +185,9 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
+				4DD4EE181E025EFC0006AE1E /* MKSAppInfoTests.m */,
+				4D6F579E1E0963BA00EF06CC /* MKSNSDictionary+MKSExtend.m */,
+				4D1E7EF71E0A7C7800EDB69F /* MKSCodeSnippetTests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -252,6 +267,9 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = MarkStudio;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 34KERNJFX2;
+					};
 					6003F5AD195388D20070C39A = {
 						LastSwiftMigration = 0810;
 						TestTargetID = 6003F589195388D20070C39A;
@@ -397,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE9B22A1E01214A006ECF3D /* MKSRootViewController.m in Sources */,
+				4DD041441E028DCE008AE008 /* QRCodeScanViewController.m in Sources */,
 				6003F59E195388D20070C39A /* MKSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MKSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -407,7 +426,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				4D6F579F1E0963BA00EF06CC /* MKSNSDictionary+MKSExtend.m in Sources */,
+				4D1E7EF81E0A7C7800EDB69F /* MKSCodeSnippetTests.m in Sources */,
+				4DD4EE191E025EFC0006AE1E /* MKSAppInfoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,11 +551,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 34KERNJFX2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKSKit/MKSKit-Prefix.pch";
 				INFOPLIST_FILE = "MKSKit/MKSKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"MKSKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -547,11 +574,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 34KERNJFX2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKSKit/MKSKit-Prefix.pch";
 				INFOPLIST_FILE = "MKSKit/MKSKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"MKSKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -576,6 +609,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"FBSnapshotTestCase\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -598,6 +636,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"FBSnapshotTestCase\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;

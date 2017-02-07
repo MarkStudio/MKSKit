@@ -27,5 +27,12 @@
 #import "UIViewController+MKSNavigationItem.h"
 #import "UITabBarController+MKSExtend.h"
 #import "UIWindow+MKSExtend.h"
+#import "UIView+MKSExtend.h"
+#import "NSDictionary+MKSExtend.h"
+
+#import "KeychainItemWrapper.h"
+
+#import "MKSAppInfo.h"
+#import "MemoryWarningTest.h"
 
 #endif /* MKSUtilities_h */

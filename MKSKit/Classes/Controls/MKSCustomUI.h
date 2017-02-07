@@ -12,4 +12,11 @@
 #import "MKSBanPasteTextField.h"
 #import "MKSToggleButton.h"
 
+#pragma mark -
+#pragma mark QR Code
+
+#import "MKSQRCodeCreater.h"
+#import "MKSQRCodeReader.h"
+#import "MKSScanViewController.h"
+
 #endif /* MKSCustomUI_h */

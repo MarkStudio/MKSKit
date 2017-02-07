@@ -30,9 +30,27 @@
 		41127A40DCD37B7A7D594F20C5E99C31 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D144117427B7C27F19319FEECCF8A6 /* GTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4A74EFE50F997944DDFA99D6FCD4EFFF /* UITabBarItem+MKSBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E67D36603050E2B59B20ABE8F4F2DB /* UITabBarItem+MKSBadge.m */; };
+		4D06DD5E1E495CB5007B4B67 /* MemoryWarningTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D06DD5C1E495CB5007B4B67 /* MemoryWarningTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D06DD5F1E495CB5007B4B67 /* MemoryWarningTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D06DD5D1E495CB5007B4B67 /* MemoryWarningTest.m */; };
+		4D6F577D1E0812AE00EF06CC /* KeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6F577B1E0812AE00EF06CC /* KeychainItemWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D6F577E1E0812AE00EF06CC /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F577C1E0812AE00EF06CC /* KeychainItemWrapper.m */; };
+		4D6F57821E0813C100EF06CC /* RingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6F57801E0813C100EF06CC /* RingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D6F57831E0813C100EF06CC /* RingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F57811E0813C100EF06CC /* RingManager.m */; };
+		4D6F579C1E09617400EF06CC /* NSDictionary+MKSExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6F579A1E09617400EF06CC /* NSDictionary+MKSExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D6F579D1E09617400EF06CC /* NSDictionary+MKSExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6F579B1E09617400EF06CC /* NSDictionary+MKSExtend.m */; };
 		4D9EF7501E01837600A70EF2 /* MKSToggleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9EF74E1E01837600A70EF2 /* MKSToggleButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D9EF7511E01837600A70EF2 /* MKSToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EF74F1E01837600A70EF2 /* MKSToggleButton.m */; };
 		4D9EF7531E0183F000A70EF2 /* MKSContants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9EF7521E0183F000A70EF2 /* MKSContants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD041401E028CC3008AE008 /* MKSScanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD0413E1E028CC3008AE008 /* MKSScanViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD041411E028CC3008AE008 /* MKSScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0413F1E028CC3008AE008 /* MKSScanViewController.m */; };
+		4DD4EE161E025AF90006AE1E /* MKSAppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD4EE141E025AF90006AE1E /* MKSAppInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD4EE171E025AF90006AE1E /* MKSAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4EE151E025AF90006AE1E /* MKSAppInfo.m */; };
+		4DD4EE1D1E027BC90006AE1E /* MKSQRCodeCreater.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD4EE1B1E027BC90006AE1E /* MKSQRCodeCreater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD4EE1E1E027BC90006AE1E /* MKSQRCodeCreater.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4EE1C1E027BC90006AE1E /* MKSQRCodeCreater.m */; };
+		4DD4EE211E027EE30006AE1E /* MKSQRCodeReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD4EE1F1E027EE30006AE1E /* MKSQRCodeReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD4EE221E027EE30006AE1E /* MKSQRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4EE201E027EE30006AE1E /* MKSQRCodeReader.m */; };
+		4DD4EE251E027F140006AE1E /* MKSQRCodeReaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD4EE231E027F140006AE1E /* MKSQRCodeReaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD4EE261E027F140006AE1E /* MKSQRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4EE241E027F140006AE1E /* MKSQRCodeReaderView.m */; };
 		4DF9F8B11E017A6C000A4A31 /* MKSBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF9F8AF1E017A6C000A4A31 /* MKSBundle.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4DF9F8B21E017A6C000A4A31 /* MKSBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9F8B01E017A6C000A4A31 /* MKSBundle.m */; };
 		4DF9F8B41E017B38000A4A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF9F8B31E017B38000A4A31 /* Assets.xcassets */; };
@@ -47,8 +65,6 @@
 		4DF9F8D91E017FCF000A4A31 /* MKSBanPasteTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF9F8D51E017F84000A4A31 /* MKSBanPasteTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DF9F8DF1E0181C4000A4A31 /* MKSCustomUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF9F8DE1E0181C4000A4A31 /* MKSCustomUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
-		5DF062787A4E59FAD497B07FC080A2E6 /* NSString+MKSDes.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C3CD3E3C65D72940B643A40903BBCE /* NSString+MKSDes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		607D6169F20A9F3186B18F3CA88CC4F4 /* NSString+MKSDes.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E4F97428130ADF906C256A2C26B503 /* NSString+MKSDes.m */; };
 		61C77F7C8D10BAF6660A62D82324F273 /* UIColor+MKSHex.h in Headers */ = {isa = PBXBuildFile; fileRef = EAFFFB2CBFBC7D4B6A21231440CF0E23 /* UIColor+MKSHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62E4CA086E9F8C5C156C168E6924CFC8 /* UIViewController+MKSAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CD14C988B5F84B9D57B96CEB75745F /* UIViewController+MKSAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		640776F175B648FBC2E43C16ECF3F39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */; };
@@ -125,7 +141,6 @@
 		13400FE86A3F355FFEDE181241C5E915 /* NSDate+MKSFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MKSFormat.m"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		14AA20D11FC923765D4D799B339EC8AB /* UITabBarController+MKSExtend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+MKSExtend.h"; sourceTree = "<group>"; };
-		14E4F97428130ADF906C256A2C26B503 /* NSString+MKSDes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKSDes.m"; sourceTree = "<group>"; };
 		20C1C7C5202F1C17513C15BECC032FFE /* Pods-MKSKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MKSKit_Example.modulemap"; sourceTree = "<group>"; };
 		21E67D36603050E2B59B20ABE8F4F2DB /* UITabBarItem+MKSBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+MKSBadge.m"; sourceTree = "<group>"; };
 		27379F8BFAF26CD64B4BEC8F57B2AA0F /* Pods_MKSKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKSKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,9 +160,27 @@
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		43D144117427B7C27F19319FEECCF8A6 /* GTMBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
 		4A6D778D07416034BD677D73C3018312 /* MKSKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MKSKit.modulemap; sourceTree = "<group>"; };
+		4D06DD5C1E495CB5007B4B67 /* MemoryWarningTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryWarningTest.h; sourceTree = "<group>"; };
+		4D06DD5D1E495CB5007B4B67 /* MemoryWarningTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryWarningTest.m; sourceTree = "<group>"; };
+		4D6F577B1E0812AE00EF06CC /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		4D6F577C1E0812AE00EF06CC /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		4D6F57801E0813C100EF06CC /* RingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingManager.h; sourceTree = "<group>"; };
+		4D6F57811E0813C100EF06CC /* RingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingManager.m; sourceTree = "<group>"; };
+		4D6F579A1E09617400EF06CC /* NSDictionary+MKSExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MKSExtend.h"; sourceTree = "<group>"; };
+		4D6F579B1E09617400EF06CC /* NSDictionary+MKSExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MKSExtend.m"; sourceTree = "<group>"; };
 		4D9EF74E1E01837600A70EF2 /* MKSToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSToggleButton.h; sourceTree = "<group>"; };
 		4D9EF74F1E01837600A70EF2 /* MKSToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSToggleButton.m; sourceTree = "<group>"; };
 		4D9EF7521E0183F000A70EF2 /* MKSContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSContants.h; sourceTree = "<group>"; };
+		4DD0413E1E028CC3008AE008 /* MKSScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSScanViewController.h; sourceTree = "<group>"; };
+		4DD0413F1E028CC3008AE008 /* MKSScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSScanViewController.m; sourceTree = "<group>"; };
+		4DD4EE141E025AF90006AE1E /* MKSAppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSAppInfo.h; sourceTree = "<group>"; };
+		4DD4EE151E025AF90006AE1E /* MKSAppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSAppInfo.m; sourceTree = "<group>"; };
+		4DD4EE1B1E027BC90006AE1E /* MKSQRCodeCreater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSQRCodeCreater.h; sourceTree = "<group>"; };
+		4DD4EE1C1E027BC90006AE1E /* MKSQRCodeCreater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSQRCodeCreater.m; sourceTree = "<group>"; };
+		4DD4EE1F1E027EE30006AE1E /* MKSQRCodeReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSQRCodeReader.h; sourceTree = "<group>"; };
+		4DD4EE201E027EE30006AE1E /* MKSQRCodeReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSQRCodeReader.m; sourceTree = "<group>"; };
+		4DD4EE231E027F140006AE1E /* MKSQRCodeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSQRCodeReaderView.h; sourceTree = "<group>"; };
+		4DD4EE241E027F140006AE1E /* MKSQRCodeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSQRCodeReaderView.m; sourceTree = "<group>"; };
 		4DF9F8AF1E017A6C000A4A31 /* MKSBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSBundle.h; sourceTree = "<group>"; };
 		4DF9F8B01E017A6C000A4A31 /* MKSBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSBundle.m; sourceTree = "<group>"; };
 		4DF9F8B31E017B38000A4A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -178,7 +211,6 @@
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		7515E8A05EA434E7EDFE9CFF5FC07246 /* MKSKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKSKit-prefix.pch"; sourceTree = "<group>"; };
 		7837D8585AC1DDC082DCB588E8B797FB /* UIViewController+MKSNavigationItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MKSNavigationItem.m"; sourceTree = "<group>"; };
-		79C3CD3E3C65D72940B643A40903BBCE /* NSString+MKSDes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+MKSDes.h"; sourceTree = "<group>"; };
 		7C072D1AAB29778855470F31C166394B /* MKSUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MKSUtilities.h; sourceTree = "<group>"; };
 		7D716DCB369ABCA16D4388E30F2D6EF5 /* MKSKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKSKit-umbrella.h"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
@@ -365,6 +397,9 @@
 		4B9BFB2479A79F8445C8C00CDC335131 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				4D06DD5B1E495C8E007B4B67 /* TEST */,
+				4D6F577F1E0813AD00EF06CC /* Audio */,
+				4D6F577A1E08127900EF06CC /* KeyChain */,
 				7C072D1AAB29778855470F31C166394B /* MKSUtilities.h */,
 				43D144117427B7C27F19319FEECCF8A6 /* GTMBase64.h */,
 				8605813D9DD89C190619FF795E835643 /* GTMBase64.m */,
@@ -375,12 +410,12 @@
 				13400FE86A3F355FFEDE181241C5E915 /* NSDate+MKSFormat.m */,
 				99F16A36E4E366D1A11EB84232100528 /* NSFileManager+MKSExtend.h */,
 				38A0CC0A73B61B55A9A6440DB5EF90DC /* NSFileManager+MKSExtend.m */,
-				79C3CD3E3C65D72940B643A40903BBCE /* NSString+MKSDes.h */,
-				14E4F97428130ADF906C256A2C26B503 /* NSString+MKSDes.m */,
 				9DBE3F014465F3413F6E59EB25600082 /* NSString+MKSExtend.h */,
 				E360D9BF33E1A0BF923CF796FD29F632 /* NSString+MKSExtend.m */,
 				11FCA2ADD19913A2AD225D58A2015738 /* NSString+MKSValidateRegex.h */,
 				F1796D6647F3E2D7D140625537B9F177 /* NSString+MKSValidateRegex.m */,
+				4D6F579A1E09617400EF06CC /* NSDictionary+MKSExtend.h */,
+				4D6F579B1E09617400EF06CC /* NSDictionary+MKSExtend.m */,
 				EAFFFB2CBFBC7D4B6A21231440CF0E23 /* UIColor+MKSHex.h */,
 				AC0886EA85AC41ECE7B0415653A325AC /* UIColor+MKSHex.m */,
 				D8A528357D4E2B68BAAAA189854DA2C7 /* UIDevice+MKSExtend.h */,
@@ -401,8 +436,60 @@
 				7837D8585AC1DDC082DCB588E8B797FB /* UIViewController+MKSNavigationItem.m */,
 				4DF9F8B51E017D39000A4A31 /* UIWindow+MKSExtend.h */,
 				4DF9F8B61E017D39000A4A31 /* UIWindow+MKSExtend.m */,
+				4DD4EE131E025AE20006AE1E /* AppInfo */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4D06DD5B1E495C8E007B4B67 /* TEST */ = {
+			isa = PBXGroup;
+			children = (
+				4D06DD5C1E495CB5007B4B67 /* MemoryWarningTest.h */,
+				4D06DD5D1E495CB5007B4B67 /* MemoryWarningTest.m */,
+			);
+			path = TEST;
+			sourceTree = "<group>";
+		};
+		4D6F577A1E08127900EF06CC /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				4D6F577B1E0812AE00EF06CC /* KeychainItemWrapper.h */,
+				4D6F577C1E0812AE00EF06CC /* KeychainItemWrapper.m */,
+			);
+			name = KeyChain;
+			sourceTree = "<group>";
+		};
+		4D6F577F1E0813AD00EF06CC /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				4D6F57801E0813C100EF06CC /* RingManager.h */,
+				4D6F57811E0813C100EF06CC /* RingManager.m */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		4DD4EE131E025AE20006AE1E /* AppInfo */ = {
+			isa = PBXGroup;
+			children = (
+				4DD4EE141E025AF90006AE1E /* MKSAppInfo.h */,
+				4DD4EE151E025AF90006AE1E /* MKSAppInfo.m */,
+			);
+			name = AppInfo;
+			sourceTree = "<group>";
+		};
+		4DD4EE1A1E027B5A0006AE1E /* QRCodeCom */ = {
+			isa = PBXGroup;
+			children = (
+				4DD4EE1B1E027BC90006AE1E /* MKSQRCodeCreater.h */,
+				4DD4EE1C1E027BC90006AE1E /* MKSQRCodeCreater.m */,
+				4DD4EE1F1E027EE30006AE1E /* MKSQRCodeReader.h */,
+				4DD4EE201E027EE30006AE1E /* MKSQRCodeReader.m */,
+				4DD4EE231E027F140006AE1E /* MKSQRCodeReaderView.h */,
+				4DD4EE241E027F140006AE1E /* MKSQRCodeReaderView.m */,
+				4DD0413E1E028CC3008AE008 /* MKSScanViewController.h */,
+				4DD0413F1E028CC3008AE008 /* MKSScanViewController.m */,
+			);
+			name = QRCodeCom;
 			sourceTree = "<group>";
 		};
 		4DF9F8941E017499000A4A31 /* Contants */ = {
@@ -419,6 +506,7 @@
 		4DF9F89A1E017499000A4A31 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				4DD4EE1A1E027B5A0006AE1E /* QRCodeCom */,
 				4DF9F8DE1E0181C4000A4A31 /* MKSCustomUI.h */,
 				4DF9F8D51E017F84000A4A31 /* MKSBanPasteTextField.h */,
 				4DF9F8D61E017F84000A4A31 /* MKSBanPasteTextField.m */,
@@ -572,7 +660,6 @@
 				EB1043E7AF692790B4A283D8E232A0D6 /* MKSUtilities.h in Headers */,
 				98C72B4FF33085B1045E71532111196B /* NSDate+MKSFormat.h in Headers */,
 				A112D12A67D5629D7D0697A2F41424C7 /* NSFileManager+MKSExtend.h in Headers */,
-				5DF062787A4E59FAD497B07FC080A2E6 /* NSString+MKSDes.h in Headers */,
 				AE4CE719F68DDDCF22E166FEAFA28AD6 /* NSString+MKSExtend.h in Headers */,
 				25DAD5255D3D2F7AA7BFBF0682BF8129 /* NSString+MKSValidateRegex.h in Headers */,
 				61C77F7C8D10BAF6660A62D82324F273 /* UIColor+MKSHex.h in Headers */,
@@ -589,8 +676,17 @@
 				62E4CA086E9F8C5C156C168E6924CFC8 /* UIViewController+MKSAlert.h in Headers */,
 				4DF9F8B11E017A6C000A4A31 /* MKSBundle.h in Headers */,
 				4DF9F8DF1E0181C4000A4A31 /* MKSCustomUI.h in Headers */,
+				4DD041401E028CC3008AE008 /* MKSScanViewController.h in Headers */,
 				4DF9F8D91E017FCF000A4A31 /* MKSBanPasteTextField.h in Headers */,
+				4DD4EE251E027F140006AE1E /* MKSQRCodeReaderView.h in Headers */,
+				4DD4EE211E027EE30006AE1E /* MKSQRCodeReader.h in Headers */,
+				4DD4EE1D1E027BC90006AE1E /* MKSQRCodeCreater.h in Headers */,
 				4D9EF7501E01837600A70EF2 /* MKSToggleButton.h in Headers */,
+				4DD4EE161E025AF90006AE1E /* MKSAppInfo.h in Headers */,
+				4D6F579C1E09617400EF06CC /* NSDictionary+MKSExtend.h in Headers */,
+				4D6F57821E0813C100EF06CC /* RingManager.h in Headers */,
+				4D06DD5E1E495CB5007B4B67 /* MemoryWarningTest.h in Headers */,
+				4D6F577D1E0812AE00EF06CC /* KeychainItemWrapper.h in Headers */,
 				4D9EF7531E0183F000A70EF2 /* MKSContants.h in Headers */,
 				3AB53B792C123EDF1975CA271ACADFEC /* UIViewController+MKSNavigationItem.h in Headers */,
 			);
@@ -798,20 +894,28 @@
 			files = (
 				3BF3BA6E4C27452045930510B4B8D056 /* GTMBase64.m in Sources */,
 				4DF9F8B81E017D39000A4A31 /* UIWindow+MKSExtend.m in Sources */,
+				4D6F579D1E09617400EF06CC /* NSDictionary+MKSExtend.m in Sources */,
 				0A6C67575C95A70D31415B3525824547 /* MKSKit-dummy.m in Sources */,
 				CFE44354D4337EDA530AA127E77D3B9A /* MKSKitInfo.m in Sources */,
 				4DF9F8D81E017F84000A4A31 /* MKSBanPasteTextField.m in Sources */,
 				129D73F8EB84E4E266332995E6DD2A84 /* MKSReachability.m in Sources */,
+				4DD4EE1E1E027BC90006AE1E /* MKSQRCodeCreater.m in Sources */,
 				932764BE18F8DBFD10719FAAD7AFCD1C /* NSDate+MKSFormat.m in Sources */,
+				4D06DD5F1E495CB5007B4B67 /* MemoryWarningTest.m in Sources */,
+				4DD4EE171E025AF90006AE1E /* MKSAppInfo.m in Sources */,
 				840D90EB6FB121DB949EA15C1BFB66EA /* NSFileManager+MKSExtend.m in Sources */,
-				607D6169F20A9F3186B18F3CA88CC4F4 /* NSString+MKSDes.m in Sources */,
+				4DD4EE221E027EE30006AE1E /* MKSQRCodeReader.m in Sources */,
 				2286CC12A7837D9CE6C25B4926884D0D /* NSString+MKSExtend.m in Sources */,
 				6FD8D5BAB22E47F61EF11791967B90D9 /* NSString+MKSValidateRegex.m in Sources */,
 				1FCD5D9F5E0E28ACF49931887B224639 /* ReplaceMe.m in Sources */,
+				4D6F57831E0813C100EF06CC /* RingManager.m in Sources */,
+				4DD4EE261E027F140006AE1E /* MKSQRCodeReaderView.m in Sources */,
 				7FA0424726C04C92AB1D8BF713C5CBEF /* UIColor+MKSHex.m in Sources */,
+				4DD041411E028CC3008AE008 /* MKSScanViewController.m in Sources */,
 				E3D39859D76666C7FC024669F2D0A7EC /* UIDevice+MKSExtend.m in Sources */,
 				CA91DCF3855A1EC6BD2FF6F7904430F2 /* UIImage+MKSExtend.m in Sources */,
 				DA3A66E9ED94A02640CF06630449F465 /* UIImage+MKSResize.m in Sources */,
+				4D6F577E1E0812AE00EF06CC /* KeychainItemWrapper.m in Sources */,
 				03D8B77F04C3DA9CD5422FFCA99103D2 /* UITabBarController+MKSExtend.m in Sources */,
 				4A74EFE50F997944DDFA99D6FCD4EFFF /* UITabBarItem+MKSBadge.m in Sources */,
 				4DF9F8B21E017A6C000A4A31 /* MKSBundle.m in Sources */,

@@ -25,10 +25,12 @@
                                                                                            options:NSNumericSearch] != NSOrderedDescending)
 #pragma mark - Bundle
 
-#define MAIN_BUNDLE   [NSBundle mainBundle]
+#define MAIN_BUNDLE         [NSBundle mainBundle]
+#define MAIN_BUNDLE_INFO    [[NSBundle mainBundle] infoDictionary]
 
 #pragma mark - UserDefaults
 
 #define UDF [NSUserDefaults standardUserDefaults]
+#define NCC [NSNotificationCenter defaultCenter]
 
 #endif /* MKSSystemCon_h */
